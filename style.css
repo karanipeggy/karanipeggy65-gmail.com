@@ -1,0 +1,38 @@
+body, html {
+    background-color: #f542da;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    list-style-type: none;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    margin: 50px 30px;
+    border-radius: 5px;
+    display: block;
+}
+
+.navitem {
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.navitem:last-child {
+    border-right: unset;
+}
+
+.navitem:hover {
+    color: #f542da;
+}
